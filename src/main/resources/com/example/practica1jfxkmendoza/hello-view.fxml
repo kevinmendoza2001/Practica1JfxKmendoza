@@ -28,6 +28,20 @@
            </children>
        </Pane>
       <ComboBox fx:id="Rol" prefHeight="25.0" prefWidth="299.0" />
+      <SplitPane dividerPositions="0.49328859060402686" prefHeight="66.0" prefWidth="300.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Button fx:id="botonIngresar" layoutX="-2.0" layoutY="-3.0" mnemonicParsing="false" onAction="#accionIngresar" prefHeight="57.0" prefWidth="148.0" text="Ingresar" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="44.0" prefWidth="80.0">
+               <children>
+                  <Button fx:id="botonSalir" layoutX="-5.0" layoutY="-3.0" mnemonicParsing="false" onAction="#accionSalir" prefHeight="57.0" prefWidth="155.0" text="Salir" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
    </children>
 
 </VBox>
