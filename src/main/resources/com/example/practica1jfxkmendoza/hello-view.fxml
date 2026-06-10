@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="337.0" prefWidth="340.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.practica1jfxkmendoza.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Label alignment="CENTER" text="Login" textAlignment="CENTER" />
+      <Pane prefHeight="16.0" prefWidth="107.0">
+         <children>
+            <Label alignment="TOP_LEFT" layoutX="5.0" layoutY="-4.0" prefHeight="17.0" prefWidth="50.0" text="Usuario" />
+         </children>
+      </Pane>
+      <TextField />
+      <Pane prefHeight="25.0" prefWidth="300.0">
+         <children>
+            <Label layoutX="7.0" layoutY="6.0" text="Contraseña" />
+         </children>
+      </Pane>
+      <TextField />
+       <Pane prefHeight="25.0" prefWidth="300.0">
+           <children>
+               <Label layoutX="7.0" layoutY="6.0" text="Rol" />
+           </children>
+       </Pane>
+      <ComboBox fx:id="Rol" prefHeight="25.0" prefWidth="299.0" />
+   </children>
+
+</VBox>
